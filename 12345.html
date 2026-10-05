@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Shahban - Online Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 20px;
+        }
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0056b3;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 5px 0;
+            color: #111;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 15px;
+        }
+        .contact-info a {
+            color: #0056b3;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            margin-top: 25px;
+        }
+        .section-title {
+            color: #0056b3;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .content-block {
+            margin-top: 10px;
+        }
+        .content-block h4 {
+            margin: 0;
+            font-size: 16px;
+            color: #222;
+        }
+        .content-block span {
+            font-size: 13px;
+            color: #777;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .skills-list li {
+            background-color: #e7f1ff;
+            color: #0056b3;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+
+    <!-- Header Section -->
+    <div class="header">
+        <img src="111.png" alt="Profile Photo" class="profile-img">
+        <h1>Md Shahban</h1>
+        <p>BCA Student | Aspiring Cyber Security & Web Professional</p>
+        <p class="contact-info">
+            Email: ik6306583.com | Location: India | 
+
+   <a href="https://linkedin.com" target="_blank">linkedin profile,</a>
+ <a href="https://wa.me/qr/U52TZUJ437A3B1" target="_blank">whatsapp profile,</a>
+ <a href="https://www.instagram.com/shahbanshaikh___0099?stkn=bmw3Zmk0YXVpemhp" target="_blank">instagram profile,</a>
+      
+      
+        </p>
+    </div>
+
+    <!-- Career Objective -->
+    <div class="section">
+        <h3 class="section-title">Career Objective</h3>
+        <p>
+            Computer applications aur cyber security ke field me practical knowledge build karne ka irada hai. Main web fundamentals, network basics aur systems ko secure karne ki technical skills me grow karna chahta hu.
+        </p>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+        <h3 class="section-title">Education</h3>
+        <div class="content-block">
+            <h4>Bachelor of Computer Applications (BCA)(RUNNING)</h4>
+            <span>Pursuing | Online Mode</span>
+            <p>Computer science fundamentals, software development aur web technologies ki padhai.</p>
+        </div>
+        <div class="content-block">
+            <h4>Higher Secondary (12th Grade)</h4>
+            <span>Science Stream</span>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+        <h3 class="section-title">Technical Skills</h3>
+        <ul class="skills-list">
+            <li>HTML5</li>
+            <li>CSS3 Styling</li>
+            <li>JavaScript Basics</li>
+            <li>Computer Fundamentals</li>
+            <li>Networking Basics</li>
+            <li>Linux / OS Essentials</li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section">
+        <h3 class="section-title">Projects</h3>
+        <div class="content-block">
+            <h4>1. Interactive Login Portal</h4>
+            <p>HTML, inline CSS aur basic JavaScript verification se ek functioning authentication page design kiya.</p>
+        </div>
+        <div class="content-block">
+            <h4>2. Personal Resume Webpage</h4>
+            <p>CSS card layout aur structured sections ke sath responsive static resume website build ki.</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<!-- 3D Motion, Floating Effects aur Scroll Animation -->
+<style>
+    /* Dark Modern Gradient Background with 3D Perspective */
+    body {
+        perspective: 1000px;
+        background: linear-gradient(135deg, #0b132b, #1c2541, #3a506b) !important;
+        background-attachment: fixed !important;
+        min-height: 140vh;
+    }
+
+    /* 3D Glassmorphism Container with Floating Shadow */
+    .resume-container {
+        background: rgba(255, 255, 255, 0.95) !important;
+        backdrop-filter: blur(10px);
+        transform-style: preserve-3d;
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.35), 0 10px 20px rgba(0, 86, 179, 0.2) !important;
+        transition: transform 0.15s ease-out;
+        will-change: transform;
+    }
+
+    /* Sections ke liye Initial 3D State */
+    .section, .header {
+        opacity: 0;
+        transform: translateY(40px) scale(0.96) translateZ(0);
+        transition: all 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    /* Jab scroll hoke saamne aaye tab ka dynamic view */
+    .section.scroll-visible, .header.scroll-visible {
+        opacity: 1;
+        transform: translateY(0) scale(1) translateZ(20px);
+    }
+
+    /* Mouse Hover par Section ka 3D Lift */
+    .section:hover {
+        transform: translateY(-4px) translateZ(30px);
+        transition: transform 0.3s ease;
+    }
+
+    /* Skills Pill Tags par Pop Effect */
+    .skills-list li {
+        transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .skills-list li:hover {
+        transform: translateY(-5px) scale(1.1) translateZ(25px);
+        background-color: #0056b3 !important;
+        color: #ffffff !important;
+        box-shadow: 0 8px 15px rgba(0, 86, 179, 0.3);
+    }
+
+    /* Profile Photo par Glowing 3D Pop */
+    .profile-img {
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .profile-img:hover {
+        transform: scale(1.08) rotate(2deg) translateZ(40px);
+        box-shadow: 0 12px 25px rgba(0, 86, 179, 0.4) !important;
+    }
+</style>
+
+<script>
+    // 1. Scroll-based 3D Tilt aur Card Motion Logic
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const container = document.querySelector('.resume-container');
+        
+        // Halka 3D rotation tilt scroll speed ke hisab se
+        const tiltAngle = Math.min(Math.max((scrolled * 0.03), 0), 6);
+        if (container) {
+            container.style.transform = `rotateX(${tiltAngle}deg) translateY(-${scrolled * 0.05}px)`;
+        }
+
+        // 2. Elements ka Reveal Animation on Scroll
+        const elements = document.querySelectorAll('.section, .header');
+        const triggerBottom = window.innerHeight * 0.88;
+
+        elements.forEach(element => {
+            const boxTop = element.getBoundingClientRect().top;
+            if (boxTop < triggerBottom) {
+                element.classList.add('scroll-visible');
+            }
+        });
+    });
+
+    // Pehle render par visible elements ko show karna
+    window.addEventListener('DOMContentLoaded', () => {
+        window.dispatchEvent(new Event('scroll'));
+    });
+</script>
+
+<!-- Additional In-Depth Professional Resume Sections (Appended to Container) -->
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    const container = document.querySelector('.resume-container');
+    if (!container) return;
+
+    const extraContent = document.createElement('div');
+    extraContent.innerHTML = `
+        <!-- Section: Professional Summary & Domain Focus -->
+        <div class="section">
+            <h3 class="section-title">Professional Profile & Strategic Vision</h3>
+            <p>
+                Highly driven Computer Applications and Information Security scholar with a firm technical foundation in modern web protocols, network architecture, and defensive cybersecurity frameworks. Demonstrates proactive learning agility across core computer science domains, operating system internals, and web engineering. Passionate about safeguarding enterprise infrastructures, analyzing threat landscapes, and engineering resilient digital platforms aligned with contemporary standards in 2026.
+            </p>
+        </div>
+
+        <!-- Section: Comprehensive Technical Competencies -->
+        <div class="section">
+            <h3 class="section-title">Expanded Technical Competencies</h3>
+            <div class="content-block">
+                <h4>Network Security & Systems</h4>
+                <p>OSI & TCP/IP stack evaluation, subnetting, IPv4/IPv6 address resolution, port analysis, DNS/DHCP infrastructure, firewall rule definitions, and SSH tunneling.</p>
+            </div>
+            <div class="content-block">
+                <h4>Defensive Cybersecurity & Auditing</h4>
+                <p>Vulnerability assessment fundamentals, endpoint hygiene, password auditing policies, access management principles, log inspection, and reconnaissance analysis in virtual environments.</p>
+            </div>
+            <div class="content-block">
+                <h4>Web Engineering & UI Development</h4>
+                <p>Semantic HTML5 document modeling, CSS3 responsive grid and flexbox layout structures, DOM manipulation using client-side JavaScript, event handlers, and data parsing.</p>
+            </div>
+            <div class="content-block">
+                <h4>Operating Platforms & Environments</h4>
+                <p>Debian/Ubuntu distributions, Kali Linux security tools environment, terminal bash navigation, Windows administrative utilities, permission configuration, and process lifecycle monitoring.</p>
+            </div>
+        </div>
+
+        <!-- Section: Academic Projects & Technical Case Studies -->
+        <div class="section">
+            <h3 class="section-title">Technical Projects & Architecture Studies</h3>
+            
+            <div class="content-block">
+                <h4>Project Alpha: Client-Side Input Authentication & Gatekeeper</h4>
+                <span>Technologies: HTML5, Advanced CSS3, JavaScript Event Execution</span>
+                <p>
+                    Architected a centralized login interface featuring localized input verification scripts to validate identity payloads before triggering redirect execution. Integrated intuitive user response states, exception handling for unauthorized data strings, and full responsive visual layouts across varying screen viewports.
+                </p>
+            </div>
+
+            <div class="content-block">
+                <h4>Project Beta: Defensive Virtual Security Lab Configuration</h4>
+                <span>Technologies: Virtualization, Kali Linux, Network Packet Analysis</span>
+                <p>
+                    Configured an isolated sandbox network to examine internal protocol behaviors and port exposures. Performed diagnostic network scanning using open-source utilities to map target topologies, evaluate system services, and verify baseline hardening rules across guest environments.
+                </p>
+            </div>
+
+            <div class="content-block">
+                <h4>Project Gamma: Interactive Digital Portfolio Architecture</h4>
+                <span>Technologies: HTML5, CSS 3D Transforms, Scroll Automation APIs</span>
+                <p>
+                    Engineered an expansive personal portfolio platform using modern CSS glassmorphism, perspective rendering, and custom scroll-triggered JavaScript animations to demonstrate modern web presentation capabilities.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section: Core Curriculum & Continuous Learning -->
+        <div class="section">
+            <h3 class="section-title">Academic Curriculum & Technical Modules</h3>
+            <ul>
+                <li><strong>Data Structures & Algorithmic Concepts:</strong> Arrays, linked lists, stacks, search algorithms, and computational problem-solving approaches.</li>
+                <li><strong>Database Management Fundamentals:</strong> Relational schema concepts, SQL query composition, table normalizations, and data integrity constraints.</li>
+                <li><strong>Computer System Architecture:</strong> Processor control logic, memory hierarchy, cache synchronization, and instruction processing cycles.</li>
+                <li><strong>Data Communication:</strong> Modulation methods, switching models, packet routing algorithms, and network transmission media mechanics.</li>
+            </ul>
+        </div>
+
+        <!-- Section: Professional Certifications & Development Goals -->
+        <div class="section">
+            <h3 class="section-title">Certifications Track & Continuous Training</h3>
+            <div class="content-block">
+                <h4>CompTIA Security+ / Network+ Track</h4>
+                <span>In-Progress Technical Preparation</span>
+                <p>Focusing on risk management, cryptographic algorithms, identity federation, PKI architectures, and secure remote connection paradigms.</p>
+            </div>
+            <div class="content-block">
+                <h4>Foundational Web Application Security</h4>
+                <span>Independent Hands-On Study</span>
+                <p>Understanding OWASP Top 10 vulnerabilities including Cross-Site Scripting (XSS), SQL Injection (SQLi), broken authentication vectors, and input sanitation protocols.</p>
+            </div>
+        </div>
+
+        <!-- Section: Workplace Strengths & Methodologies -->
+        <div class="section">
+            <h3 class="section-title">Workplace Methodologies & Analytical Strengths</h3>
+            <ul>
+                <li><strong>Root Cause Identification:</strong> Methodical troubleshooting mindset focused on deconstructing code discrepancies and operational misconfigurations.</li>
+                <li><strong>Security Best Practices:</strong> Keen adherence to principle of least privilege (PoLP), defensive credential workflows, and structured documentation practices.</li>
+                <li><strong>Agile Adaptation:</strong> Swift ingestion of novel frameworks, programming libraries, diagnostic interfaces, and technical documentation standards.</li>
+                <li><strong>Team Collaboration:</strong> Clear articulation of complex systemic concepts across both engineering peers and administrative stakeholders.</li>
+            </ul>
+        </div>
+
+        <!-- Section: Languages & Operational Details -->
+        <div class="section">
+            <h3 class="section-title">Language Proficiency & Operational Parameters</h3>
+            <p>
+                <strong>Languages:</strong> English (Professional & Technical Competence), Hindi (Fluent / Native)<br>
+                <strong>Operational Availability:</strong> Full-Time Technical Trainee / Junior Security Analyst / Associate Web Engineering roles.<br>
+                <strong>Location Flexibility:</strong> Open to hybrid, on-site, and collaborative corporate environments.
+            </p>
+        </div>
+    `;
+
+    container.appendChild(extraContent);
+    window.dispatchEvent(new Event('scroll'));
+});
+</script>
+
+
+</script>
+
+
+
+<!-- ULTRA-STYLISH UI ADDITIONS: Progress Bar, Badges, Skill Meters & Top Button (No Custom Cursor) -->
+<style>
+    /* 1. Top Reading Scroll Progress Bar */
+    #progress-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: rgba(255, 255, 255, 0.1);
+        z-index: 9999;
+    }
+    #progress-bar {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #00f2fe, #4facfe, #0056b3);
+        box-shadow: 0 0 12px #00f2fe;
+    }
+
+    /* 2. Modern Tech Badges */
+    .badge-bar {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin: 15px 0;
+        flex-wrap: wrap;
+    }
+    .badge {
+        background: rgba(0, 86, 179, 0.15);
+        border: 1px solid #4facfe;
+        color: #0056b3;
+        padding: 5px 14px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    /* 3. Animated Skill Bars */
+    .skill-meter-box {
+        margin-top: 15px;
+    }
+    .skill-info {
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 4px;
+    }
+    .skill-line-bg {
+        width: 100%;
+        height: 8px;
+        background: #e2e8f0;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 12px;
+    }
+    .skill-line-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #0056b3, #00f2fe);
+        border-radius: 10px;
+        box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+    }
+
+    /* 4. Scroll to Top Floating Button */
+    #scrollTopBtn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 45px;
+        height: 45px;
+        background: #0056b3;
+        color: #ffffff;
+        border: none;
+        border-radius: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        display: none;
+        box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+        transition: transform 0.3s, background-color 0.3s;
+        z-index: 9000;
+    }
+    #scrollTopBtn:hover {
+        background: #00f2fe;
+        color: #111;
+        transform: translateY(-5px) scale(1.1);
+    }
+</style>
+
+<!-- Top Progress Bar & Scroll Button Elements -->
+<div id="progress-container"><div id="progress-bar"></div></div>
+<button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+    // 1. Top Badges Header me lagane ke liye
+    const header = document.querySelector('.header');
+    if (header) {
+        const badgeDiv = document.createElement('div');
+        badgeDiv.className = 'badge-bar';
+        badgeDiv.innerHTML = `
+            <span class="badge">🛡️ Cyber Security Focus</span>
+            <span class="badge">💻 BCA Student</span>
+            <span class="badge">🚀 Tech Explorer 2026</span>
+        `;
+        header.appendChild(badgeDiv);
+    }
+
+    // 2. Animated Skill Meters Section
+    const container = document.querySelector('.resume-container');
+    if (container) {
+        const skillMeters = document.createElement('div');
+        skillMeters.className = 'section';
+        skillMeters.innerHTML = `
+            <h3 class="section-title">Technical Proficiency Index</h3>
+            <div class="skill-meter-box">
+                <div class="skill-info"><span>HTML5 Document Architecture</span><span>95%</span></div>
+                <div class="skill-line-bg"><div class="skill-line-fill" style="width: 95%;"></div></div>
+
+                <div class="skill-info"><span>CSS3 3D Transformations & UI Design</span><span>85%</span></div>
+                <div class="skill-line-bg"><div class="skill-line-fill" style="width: 85%;"></div></div>
+
+                <div class="skill-info"><span>Client-Side Logic (JavaScript)</span><span>75%</span></div>
+                <div class="skill-line-bg"><div class="skill-line-fill" style="width: 75%;"></div></div>
+
+                <div class="skill-info"><span>Network Security & Protocols</span><span>80%</span></div>
+                <div class="skill-line-bg"><div class="skill-line-fill" style="width: 80%;"></div></div>
+            </div>
+        `;
+        container.appendChild(skillMeters);
+    }
+});
+
+// Progress Bar & Scroll-To-Top Handling
+window.addEventListener('scroll', () => {
+    const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    
+    // Progress bar update
+    document.getElementById('progress-bar').style.width = scrolled + '%';
+
+    // Show/hide back to top button
+    const topBtn = document.getElementById('scrollTopBtn');
+    if (winScroll > 300) {
+        topBtn.style.display = 'block';
+    } else {
+        topBtn.style.display = 'none';
+    }
+});
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
